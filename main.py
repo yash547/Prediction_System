@@ -66,11 +66,11 @@ def fun():
         Q15 = Label(innertops, text="Q15 Are you Generally passionate about social causes?").place(x=30, y=270)
         e15 = Entry(innertops).place(x=30, y=310)
 
-        def showresults():
+        def showresult():
             intops = Tk()
             intops.geometry("800x650")
 
-        b2 = Button(innertops, text="Show Result", command=showresults).place(x=30, y=400)
+        b2 = Button(innertops, text="Show Result", command=showresult).place(x=30, y=400)
 
 
 
